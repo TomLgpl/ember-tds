@@ -27,13 +27,18 @@ export default class Ex1Controller extends Controller {
 
   @action
   clear() {
-    this.content = '';
-    this.info = '';
+    if (this.size != this.MAX) {
+      this.content = '';
+      this.info = '';
+    }
   }
 
   @action
   save() {
-    console.log('save');
+    if (this.size != this.MAX){
+      console.log('save');
+      this.info = 'Note sauvegardée';
+    }
   }
 
   @action
