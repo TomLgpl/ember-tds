@@ -3,16 +3,18 @@
 <div class="card">
   <div class="card-header bg-primary text-light">Ex 1 : Note application</div>
   <div class="card-body">
-    <Textarea class="form-control mb-3" @value={{this.content}}/>
+    <Textarea class="form-control mb-3" maxlength="100" @value={{this.content}} @input={{this.update}} />
     <button {{action "clear"}} class="btn btn-primary">
-      Clear
+      Nettoyer
     </button>
     <button {{action "save"}} class="btn btn-primary">
-      Save
+      Sauvegarder
     </button>
     <br><br>
     <div class="alert {{this.style}}">
       Il reste {{this.size}} caractères disponibles.
+      <br>
+      {{this.info}}
     </div>
   </div>
 </div>

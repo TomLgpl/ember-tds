@@ -4,10 +4,12 @@ import { tracked } from '@glimmer/tracking';
 
 export default class Ex1Controller extends Controller {
   @tracked content = '';
-  @tracked info;
+  @tracked info = '';
   MAX = 100;
 
   get size() {
+    if (this.MAX - this.content.length == this.MAX)
+      this.info = '';
     return this.MAX - this.content.length;
   }
 
@@ -15,7 +17,7 @@ export default class Ex1Controller extends Controller {
     if (this.size > this.MAX/2) {
       return 'green';
     }
-    if (this.size > this.MAX/4) {
+    else if (this.size > this.MAX/4) {
       return 'orange';
     }
     else {
@@ -26,10 +28,16 @@ export default class Ex1Controller extends Controller {
   @action
   clear() {
     this.content = '';
+    this.info = '';
   }
 
   @action
   save() {
     console.log('save');
+  }
+
+  @action
+  update() {
+    this.info = 'Note modifiée'
   }
 }
