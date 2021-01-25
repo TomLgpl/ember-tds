@@ -1,0 +1,13 @@
+{{page-title "Ex1"}}
+
+<div class="card">
+  <div class="card-header bg-primary text-light">Ex 1 : Note application</div>
+  <div class="card-body">
+    <Textarea class="form-control mb-3" @value={{this.content}}/>
+    <div class="alert alert-info">
+      Il reste {{this.size}} caractères disponibles.
+    </div>
+  </div>
+</div>
+
+{{outlet}}
