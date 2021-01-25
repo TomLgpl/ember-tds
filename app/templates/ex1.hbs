@@ -4,6 +4,10 @@
   <div class="card-header bg-primary text-light">Ex 1 : Note application</div>
   <div class="card-body">
     <Textarea class="form-control mb-3" @value={{this.content}}/>
+    <button {{action "clear"}} class="card bg-primary text-light">
+      Clear
+    </button>
+    <br>
     <div class="alert alert-info">
       Il reste {{this.size}} caractères disponibles.
     </div>
