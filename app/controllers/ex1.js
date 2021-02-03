@@ -14,14 +14,23 @@ export default class Ex1Controller extends Controller {
   }
 
   get style() {
-    if (this.size > this.MAX/2) {
-      return 'green';
-    }
-    else if (this.size > this.MAX/4) {
-      return 'orange';
-    }
-    else {
-      return 'red';
+    switch (this.info) {
+      case 'Note modifiée':
+        if (this.size > this.MAX/2) {
+          return 'alert alert-info';
+        }
+        else if (this.size > this.MAX/4) {
+          return 'alert alert-warning';
+        }
+        else {
+          return 'alert alert-danger';
+        }
+        break;
+      case 'Note sauvegardée' :
+        return 'alert alert-success';
+        break;
+      default :
+        return '';
     }
   }
 
@@ -45,4 +54,5 @@ export default class Ex1Controller extends Controller {
   update() {
     this.info = 'Note modifiée'
   }
+
 }
