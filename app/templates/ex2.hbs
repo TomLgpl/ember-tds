@@ -1,0 +1,8 @@
+{{page-title "Ex2"}}
+<ul>
+  {{#each @model.services as |service|}}
+    <li  {{action "toggleActive" service}}>{{service.name}} {{service.price}}</li>
+  {{/each}}
+</ul>
+{{@model.countActive}} service(s) actif(s)
+{{outlet}}
