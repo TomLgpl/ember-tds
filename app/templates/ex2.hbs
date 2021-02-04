@@ -4,5 +4,9 @@
     <li  {{action "toggleActive" service}}>{{service.name}} {{service.price}}</li>
   {{/each}}
 </ul>
-{{@model.countActive}} service(s) actif(s)
+{{ plural @model.countActive
+          'Aucun service sélectionné'
+          'service sélectionné'
+          'services sélectionnés'
+}}
 {{outlet}}
