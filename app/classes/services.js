@@ -19,6 +19,14 @@ export default class Services{
     return this.services.filterBy('active', true).length;
   }
 
+  get sumActive(){
+    let services = this.services.filterBy('active', true);
+    let price = 0;
+    services.forEach(service=>{
+      price += service.price;
+    });
+    return price;
+  }
 
 
 }
