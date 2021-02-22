@@ -28,6 +28,7 @@
         <LinkTo @route="contacts.add">Ajouter</LinkTo>
         {{#if @model.deletedsCount}}
           <button class="btn btn-danger" {{action "cancelDeletion" @model.deleteds}}>Annuller la suppression ({{@model.deletedsCount}})</button>
+          <button class="btn btn-success" {{action "validateDeletion" @model.deleteds}}>Valider la suppression ({{@model.deletedsCount}})</button>
         {{/if}}
       </td>
     </tr>

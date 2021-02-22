@@ -20,4 +20,11 @@ export default class ContactsRoute extends Route {
     );
   }
 
+  @action
+  validateDeletion(contacts) {
+    contacts.forEach(
+      (contact) => contact.save()
+    );
+  }
+
 }
