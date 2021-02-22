@@ -14,7 +14,7 @@ export default class contacts {
     return this.datas.filterBy('isDeleted', true);
   }
 
-  get deletedCount(){
+  get deletedsCount(){
     return this.deleteds.length;
   }
 

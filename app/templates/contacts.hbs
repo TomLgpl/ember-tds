@@ -12,7 +12,10 @@
       <td>{{contact.prenom}}</td>
       <td>{{contact.email}}</td>
       <td>
-        <button {{action "delete" contact}} class="btn btn-primary btn-sm">
+        <LinkTo @route="contacts.update" @model={{contact.id}} class="btn btn-primary btn-sm">
+          <i class="far fa-edit"></i>
+        </LinkTo>
+        <button {{action "delete" contact}} class="btn btn-danger btn-sm">
           <i class="far fa-trash-alt"></i>
         </button>
       </td>
@@ -23,6 +26,9 @@
     <tr>
       <td>
         <LinkTo @route="contacts.add">Ajouter</LinkTo>
+        {{#if @model.deletedsCount}}
+          <button class="btn btn-danger" {{action "cancelDeletion" @model.deleteds}}>Annuller la suppression ({{@model.deletedsCount}})</button>
+        {{/if}}
       </td>
     </tr>
   </tfoot>
