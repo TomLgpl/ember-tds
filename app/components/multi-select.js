@@ -22,7 +22,7 @@ export default class MultiSelectComponent extends Component {
     if (this.args.onChange) {
       this.args.onChange(
         this.elements.filter(
-          (elm) => selectedIds.filter((e) => e == elm[this.id]).length > 0
+          (elm) => selectedIds.filter((e) => e === elm[this.id]).length > 0
         )
       );
     }

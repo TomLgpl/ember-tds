@@ -1,11 +1,26 @@
 {{page-title "Step1"}}
-<MultiSelect @elements={{this.dispoItems}} @selected={{this.dispoItems_}} @onChange={{this.changeDispo}}/>
-<button {{action "add" this.dispoItems this.includedItems this.dispoItems_}}>
-  Ajouter
-</button>
-<button {{action "add" this.includedItems this.dispoItems this.includedItems_}}>
-  Retirer
-</button>
-<MultiSelect @elements={{this.includedItems}} @selected={{this.includedItems_}} @onChange={{this.changeIncluded}}/>
-
-
+<div class="container">
+  <h1>Sélectionner vos produits</h1>
+  <div class="row">
+    <div class="col">
+      Produits disponibles :
+      <MultiSelect @elements={{this.dispoItems}} @selected={{this.dispoItems_}} @onChange={{this.changeDispo}}
+                   class="form-control ng-valid ng-dirty ng-touched" />
+    </div>
+    <div class="col-1">
+      <div class="btn btn-primary list-btn" title="Ajouter" {{action "add" this.dispoItems this.includedItems
+                                                                     this.dispoItems_}}>
+        →
+      </div>
+      <div class="btn btn-primary list-btn" title="Ajouter" {{action "remove" this.includedItems this.dispoItems
+                                                                     this.includedItems_}}>
+        ←
+      </div>
+    </div>
+    <div class="col">
+      Produits à inclure :
+      <MultiSelect @elements={{this.includedItems}} @selected={{this.includedItems_}}
+                   @onChange={{this.changeIncluded}} class="form-control ng-valid ng-dirty ng-touched ng-valid-parse" />
+    </div>
+  </div>
+</div>

@@ -28,7 +28,8 @@ export default class Step1Controller extends Controller {
 
   @action
   remove(source, dest, what) {
-
+    dest.pushObjects(what);
+    source.removeObjects(what);
   }
 
 }
