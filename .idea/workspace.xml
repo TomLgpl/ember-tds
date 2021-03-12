@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59e69782-8c52-4542-899d-3c752a21d22b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/multi-select.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/multi-select.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/step1.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/step1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/step1.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/step1.hbs" afterDir="false" />
-    </list>
+    <list default="true" id="59e69782-8c52-4542-899d-3c752a21d22b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613513882112</updated>
       <workItem from="1613513883997" duration="4757000" />
-      <workItem from="1615550341958" duration="104000" />
+      <workItem from="1615550341958" duration="511000" />
     </task>
     <task id="LOCAL-00001" summary="Vue &#10;&#10;ajout css bootstrap">
       <created>1615200352914</created>
@@ -65,7 +59,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615200352914</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1615550484908</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615550484908</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +86,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Vue &#10;&#10;ajout css bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vue &#10;&#10;ajout css bootstrap" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
