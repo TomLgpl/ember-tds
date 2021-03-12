@@ -56,7 +56,16 @@
       <option name="presentableId" value="Default" />
       <updated>1613513882112</updated>
       <workItem from="1613513883997" duration="4757000" />
+      <workItem from="1615550341958" duration="104000" />
     </task>
+    <task id="LOCAL-00001" summary="Vue &#10;&#10;ajout css bootstrap">
+      <created>1615200352914</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615200352914</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,5 +82,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Vue &#10;&#10;ajout css bootstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vue &#10;&#10;ajout css bootstrap" />
   </component>
 </project>
