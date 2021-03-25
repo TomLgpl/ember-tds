@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="59e69782-8c52-4542-899d-3c752a21d22b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/application.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/application.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,7 @@
       <workItem from="1616088658237" duration="93000" />
       <workItem from="1616088759960" duration="2815000" />
       <workItem from="1616676324422" duration="28000" />
-      <workItem from="1616676353406" duration="2136000" />
+      <workItem from="1616676353406" duration="3239000" />
     </task>
     <task id="LOCAL-00001" summary="Vue &#10;&#10;ajout css bootstrap">
       <created>1615200352914</created>
@@ -126,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616677600395</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Authentification&#10;&#10;Création d'un service pour l'authentification à l'intranet">
+      <created>1616678637850</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616678637850</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +175,7 @@
     <MESSAGE value="serializer application&#10;&#10;creation serializer application" />
     <MESSAGE value="serializer section&#10;&#10;creation serializer section" />
     <MESSAGE value="Semantic-ui-ember &amp; jquery&#10;&#10;Intégration de Semantic-ui-ember &amp; jquery" />
-    <option name="LAST_COMMIT_MESSAGE" value="Semantic-ui-ember &amp; jquery&#10;&#10;Intégration de Semantic-ui-ember &amp; jquery" />
+    <MESSAGE value="Authentification&#10;&#10;Création d'un service pour l'authentification à l'intranet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Authentification&#10;&#10;Création d'un service pour l'authentification à l'intranet" />
   </component>
 </project>
