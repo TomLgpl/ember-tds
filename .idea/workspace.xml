@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="59e69782-8c52-4542-899d-3c752a21d22b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/config/optional-features.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/optional-features.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="td5" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1oa9YQmfTtbnYbCQ2SFHTki67zn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.ember-template-lint" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.ember-template-lint" value="project" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.ember-template-lint" value="C:\Users\tomle\myGit\ember_tds\ember-tds\node_modules\ember-template-lint" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\tomle\myGit\ember_tds\ember-tds\node_modules\prettier" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59e69782-8c52-4542-899d-3c752a21d22b" name="Default Changelist" comment="" />
+      <created>1613513882112</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613513882112</updated>
+      <workItem from="1613513883997" duration="4757000" />
+      <workItem from="1615550341958" duration="6928000" />
+      <workItem from="1616073342483" duration="632000" />
+      <workItem from="1616088503466" duration="11000" />
+      <workItem from="1616088541632" duration="105000" />
+      <workItem from="1616088658237" duration="93000" />
+      <workItem from="1616088759960" duration="2815000" />
+      <workItem from="1616676324422" duration="28000" />
+      <workItem from="1616676353406" duration="1237000" />
+    </task>
+    <task id="LOCAL-00001" summary="Vue &#10;&#10;ajout css bootstrap">
+      <created>1615200352914</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615200352914</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update">
+      <created>1615550484908</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615550484908</updated>
+    </task>
+    <task id="LOCAL-00003" summary="mise en place projet&#10;&#10;install semantic ui&#10;install jquery&#10;install optional-features&#10;ajout .idea au .gitignore">
+      <created>1615556261348</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615556261348</updated>
+    </task>
+    <task id="LOCAL-00004" summary="auth et route abstraite&#10;&#10;creation user-auth&#10;creation route Abstractroute">
+      <created>1615557224000</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615557224000</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adapter application&#10;&#10;creation adapter rest application">
+      <created>1615557672338</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615557672338</updated>
+    </task>
+    <task id="LOCAL-00006" summary="serializer application&#10;&#10;creation serializer application">
+      <created>1615557939661</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615557939661</updated>
+    </task>
+    <task id="LOCAL-00007" summary="serializer section&#10;&#10;creation serializer section">
+      <created>1615558424505</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615558424505</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="td6" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Vue &#10;&#10;ajout css bootstrap" />
+    <MESSAGE value="update" />
+    <MESSAGE value="mise en place projet&#10;&#10;install semantic ui&#10;install jquery&#10;install optional-features&#10;ajout .idea au .gitignore" />
+    <MESSAGE value="auth et route abstraite&#10;&#10;creation user-auth&#10;creation route Abstractroute" />
+    <MESSAGE value="adapter application&#10;&#10;creation adapter rest application" />
+    <MESSAGE value="serializer application&#10;&#10;creation serializer application" />
+    <MESSAGE value="serializer section&#10;&#10;creation serializer section" />
+    <option name="LAST_COMMIT_MESSAGE" value="serializer section&#10;&#10;creation serializer section" />
+  </component>
+</project>
