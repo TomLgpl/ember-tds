@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59e69782-8c52-4542-899d-3c752a21d22b" name="Default Changelist" comment="" />
+    <list default="true" id="59e69782-8c52-4542-899d-3c752a21d22b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616678637850</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Objets associés&#10;&#10;Gestion des objets associés&#10;Création sérailiser basket&#10;Création sérailiser user&#10;Création sérailiser order&#10;Création sérailiser timeslot&#10;Création sérailiser employee&#10;Création sérailiser product">
+      <created>1616683888216</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1616683888216</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +182,7 @@
     <MESSAGE value="serializer section&#10;&#10;creation serializer section" />
     <MESSAGE value="Semantic-ui-ember &amp; jquery&#10;&#10;Intégration de Semantic-ui-ember &amp; jquery" />
     <MESSAGE value="Authentification&#10;&#10;Création d'un service pour l'authentification à l'intranet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Authentification&#10;&#10;Création d'un service pour l'authentification à l'intranet" />
+    <MESSAGE value="Objets associés&#10;&#10;Gestion des objets associés&#10;Création sérailiser basket&#10;Création sérailiser user&#10;Création sérailiser order&#10;Création sérailiser timeslot&#10;Création sérailiser employee&#10;Création sérailiser product" />
+    <option name="LAST_COMMIT_MESSAGE" value="Objets associés&#10;&#10;Gestion des objets associés&#10;Création sérailiser basket&#10;Création sérailiser user&#10;Création sérailiser order&#10;Création sérailiser timeslot&#10;Création sérailiser employee&#10;Création sérailiser product" />
   </component>
 </project>
