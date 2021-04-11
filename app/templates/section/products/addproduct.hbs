@@ -1,0 +1,31 @@
+{{page-title "AddProduct"}}
+
+<div class="ui container">
+  <div class="ui segment">
+    <div class="row">
+      <div class="ui input">
+        <UiDropdown class="ui input fluid selection" @selected={{@model.product.section}} @onChange={{fn
+          (mut @model.product.section)}} as |execute mapper|>
+          <div class="default text">Section</div>
+          <i class="dropdown icon"></i>
+          <div class="menu">
+            {{#each @model.sections as |section|}}
+              <div data-value={{map-value mapper section}} class="item">
+                {{section.name}}
+              </div>
+            {{/each}}
+          </div>
+        </UiDropdown>
+        <Input type="text" @value={{@model.product.name}} placeholder="Entrez le nom" />
+        <Input type="text" @value={{@model.product.price}} placeholder="Entrez le prix" />
+        <Input type="text" @value={{@model.product.promotion}} placeholder="Entrez la promotion" />
+        <Input type="text" @value={{@model.product.stock}} placeholder="Entrez le stock" />
+      </div>
+      <button {{action "save" @model.product}} class="ui green button"> Enregistrer</button>
+      <LinkTo @route="sections">
+        <button class="ui orange button">Annuler</button>
+      </LinkTo>
+    </div>
+  </div>
+</div>
+{{outlet}}

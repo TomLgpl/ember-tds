@@ -3,6 +3,5 @@ import { EmbeddedRecordsMixin } from '@ember-data/serializer/rest';
 
 export default class ProductSerializer extends JSONSerializer.extend(EmbeddedRecordsMixin) {
 
-  attrs = { basketdetail: { embedded: 'always' }, pack: { embedded: 'always' }, orderdetail: { embedded: 'always' }, associatedproduct: { embedded: 'always' } };
-
+  attrs = { packs: { embedded: 'always' }, section: { serialize: 'id', deserialize: 'records' } };
 }

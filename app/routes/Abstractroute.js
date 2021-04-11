@@ -6,9 +6,9 @@ export default class AbstractrouteRoute extends Route {
   @service userAuth;
 
   redirect() {
-    if(!this.userAuth.isAuth) {
-      this.transitionTo('index');
+    if (!this.userAuth.isAuth) {
+      this.transitionTo('index.js');
     }
-  }
 
+  }
 }

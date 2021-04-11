@@ -1,0 +1,46 @@
+{{page-title "Sections"}}
+<div class="ui container">
+  <div class="ui segment" >
+    <span class="ui label">{{@model.employee.email}}</span>
+    <button class="ui black button" {{action "logout"}}>
+      Logout
+    </button>
+  </div>
+  <div class="ui segment">
+    <h2>Sections</h2>
+    <table>
+      <tbody>
+      {{#each @model.sections as |section|}}
+        <tr>
+          <td class="ui collapsing">
+            <LinkTo class="ui mini icon red button" @route="section.delete" @model={{section.id}}>
+              <i class="ui eraser icon"></i>
+            </LinkTo>
+            <LinkTo class="ui mini icon blue button" @route="section.products" @model={{section.id}}>
+              <i class="ui search icon"></i>
+            </LinkTo>
+            <LinkTo class="ui mini icon blue button" @route="section.edit" @model={{section.id}}>
+              <i class="ui edit icon"></i>
+            </LinkTo>
+
+          </td>
+          <td>{{section.name}}</td>
+        </tr>
+      {{/each}}
+      </tbody>
+    </table>
+    <LinkTo @route="section.add">
+      <button class="ui green button" > Ajouter une section </button>
+    </LinkTo>
+    <LinkTo @route="board">
+      <button class="ui orange button"> Retour </button>
+    </LinkTo>
+  </div>
+
+</div>
+
+
+
+
+
+{{outlet}}

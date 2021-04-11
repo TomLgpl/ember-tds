@@ -1,0 +1,9 @@
+{{page-title "Delete"}}
+<div class="ui segment">
+  <form class="ui form">
+    <h4 class="ui dividing header">Supprimer une section : {{@model.name}}</h4>
+    <LinkTo class="ui button" @route="section">Annuler</LinkTo>
+    <button class="ui button"{{action 'delete' @model}}>Valider suppression</button>
+  </form>
+</div>
+{{outlet}}

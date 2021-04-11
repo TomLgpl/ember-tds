@@ -1,0 +1,36 @@
+{{page-title "Products"}}
+
+<div class="ui container">
+  <div class="ui segment">
+    <h2>Produits</h2>
+    <LinkTo @route="section.addproduct">
+      <button class="ui blue button"> Ajouter un produit </button>
+    </LinkTo>
+    <br>
+    {{outlet}}
+    <br>
+    <table class="ui teal table" align="center">
+      <thead>
+      <tr>
+        <th> Nom </th>
+        <th> Prix </th>
+        <th> Promotion </th>
+        <th> Section </th>
+      </tr></thead>
+      {{#each @model.section.products as |product|}}
+        <tbody>
+        <tr>
+          <td>{{product.name}}</td>
+          <td>{{product.price}}</td>
+          <td>{{product.promotion}}</td>
+          <td>{{product.section.name}}</td>
+        </tr></tbody>
+      {{/each}}
+    </table>
+  </div>
+</div>
+
+
+
+
+

@@ -2,7 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59e69782-8c52-4542-899d-3c752a21d22b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/models/employee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/orderdetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/section.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/timeslot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/board.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/logout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/section.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/section/add.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/section/addproduct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/section/delete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/section/edit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/section/products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/section/products/addproduct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/section/products/delete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/section/products/edit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/test-employe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/board.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/logout.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/order.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/section.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/section/add.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/section/addproduct.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/section/delete.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/section/edit.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/section/products.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/section/products/addproduct.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/section/products/delete.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/section/products/edit.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/Abstractroute.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/Abstractroute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/serializers/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/serializers/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/serializers/orderdetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/serializers/orderdetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/serializers/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/serializers/product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/serializers/section.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/serializers/section.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/user-auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/user-auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/abstractroute.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/abstractroute.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/application.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/application.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +71,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1oa9YQmfTtbnYbCQ2SFHTki67zn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,6 +97,15 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\tomle\myGit\ember_tds\ember-tds\node_modules\prettier" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tomle\myGit\ember_tds\ember-tds\app\templates\section\products" />
+      <recent name="C:\Users\tomle\myGit\ember_tds\ember-tds\app\templates\section" />
+      <recent name="C:\Users\tomle\myGit\ember_tds\ember-tds\app\templates\myorders" />
+      <recent name="C:\Users\tomle\myGit\ember_tds\ember-tds\app\templates" />
+      <recent name="C:\Users\tomle\myGit\ember_tds\ember-tds\app\services" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

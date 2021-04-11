@@ -1,0 +1,24 @@
+{{page-title "Edit"}}
+<div class="ui container">
+  <div class="ui segment">
+    <h1 class="content">Modifier le produit {{@model.name}}</h1>
+    <div class="ui segment">
+      <form {{action "update" @model on='submit'}} class="ui form">
+        <div class="ui centered two column grid">
+          <div class="ui one column wide">
+            <Input class="ui input marginBotLL" type="text" placeholder="Nom du product" required @value={{@model.name}}/>
+            <Input class="ui input marginBotLL" type="number" step="any" placeholder="Prix du product" required @value={{@model.price}}/>
+            <Input class="ui input marginBotLL" type="number" step="any" placeholder="Promotion sur le product" @value={{@model.promotion}}/>
+            <Input class="ui input marginBotLL" type="number" placeholder="Nombre en stock" @value={{@model.stock}}/>
+          </div>
+        </div>
+        <div class="ui centered grid marginBotLL">
+          <button class="ui positive button" type="submit" >Mettre a jour</button>
+          <button class="ui negative button" {{action "back" @model}}>Annuler</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+{{outlet}}

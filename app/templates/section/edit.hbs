@@ -1,0 +1,64 @@
+{{page-title "Edit"}}
+<div class="ui container">
+  {{#if this.edit}}
+    <div class="ui segment">
+      <h1 class="ui header">
+        <div class="content">Modifier les données de la section {{@model.name}}</div>
+      </h1>
+      <div class="ui segment">
+        <form {{action "validate" @model on='submit'}} class="ui form">
+          <div class="ui five column centered grid">
+            <div class="ui centered grid">
+              <Input class="ui input" type="text" placeholder="Nom de la section" required @value={{@model.name}}/>
+              <Textarea class="ui input" rows="1" placeholder="Description de la section" required @value={{@model.description}}/>
+            </div>
+          </div>
+          <div class="ui centered grid">
+            <button class="ui green button" type="submit" >Valider</button>
+            <button class="ui red button" {{action "cancel" @model}}>Annuler</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  {{/if}}
+  <div class="ui container segment">
+    <h1 class="ui header">
+      <div class="content">
+        Section {{@model.name}}
+      </div>
+      <button {{action "back"}} class="ui grey button right floated">Retour</button>
+      <button {{action "toggle" @model}} class="ui green button right floated">Modifier section</button>
+    </h1>
+    <div class="ui segment">
+      <LinkTo @route="section.products.addProduct" @model={{@model.id}}>
+        <button class="ui positive button ">Ajouter un nouveau produit</button>
+      </LinkTo>
+      <button {{action "cancel"}} class="ui positive button right floated">Annuler</button>
+      <div class="ui marginTopL">
+        <div class="ui">
+          <table class="ui very basic table ">
+            {{#each @model.products as |product|}}
+              <tr class="{{if product.isDeleted 'negative' ''}} ">
+                <td>{{product.name}}</td>
+                <td class="right aligned collapsing">
+                  <LinkTo @route="section.products.edit" @models={{array @model.id product.id}}>
+                    <button class="ui secondary mini button">Modifier ...</button>
+                  </LinkTo>
+                </td>
+                <td class="right aligned collapsing">
+                  <LinkTo @route="sections.products.delete" @models={{array @model.id product.id}}>
+                    <button class="ui icon red mini button">X</button>
+                  </LinkTo>
+                </td>
+              </tr>
+            {{/each}}
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+{{outlet}}

@@ -1,0 +1,10 @@
+{{page-title "Add"}}
+<br>
+<div class="ui input ">
+    <Input @value={{@model.name}} placeholder="Entrez le nom de la section"/>
+    <Input @value={{@model.description}} placeholder="Entrez la description"/>
+</div>
+  <br>
+  <button {{action "save" @model}} class="btn btn-primary">Enregistrer </button>
+  <LinkTo @route="section" class="btn">Annuler</LinkTo>
+{{outlet}}

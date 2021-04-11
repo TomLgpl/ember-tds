@@ -1,0 +1,26 @@
+{{page-title "Board"}}
+<div class="ui container">
+  <div class="ui segment">
+    <span class="ui label">{{@model.employee.email}}</span>
+    <div class="ui right aligned">
+      <LinkTo @route="logout" class="ui black button">
+        Deconnexion
+      </LinkTo>
+    </div>
+  </div>
+  <div class="ui segment">
+    <h2>Orders</h2>
+    <ul>
+      {{#each @model.orders as |order|}}
+        <li>
+          {{moment-format order.dateCreation "LLLL"}} <span class="ui square label">{{order.orderdetails.length}}</span>
+        </li>
+      {{/each}}
+      <LinkTo @route="section">
+        <button class="ui blue button"> Gerer le store</button>
+      </LinkTo>
+    </ul>
+  </div>
+</div>
+
+{{outlet}}

@@ -10,32 +10,33 @@ export default class UserAuthService extends Service {
   constructor() {
     super();
     this.storage = sessionStorage;
-    if(this.storage.user) {
-      let u = JSON.pars(this.storage.user);
-      set(this, 'use', u);
+    if (this.storage.user) {
+      let u = JSON.parse(this.storage.user);
+      set(this, 'user', u);
     }
   }
 
-  //retourne l'employé connecté
+  //Retourne l'employé connecté
   getUser() {
     return this.user;
   }
 
-  //retourne vrai si un employé est coneecté
+  //Retourne vrai si un employé est connecté
   get isAuth() {
     return this.user !== null;
   }
 
-  //déconnecte l'employé connecté
+  //Déconnecte l'employé actuellement connecté
   logout() {
     this.user = null;
     this.storage.removeItem('user');
     this.storage.clear();
   }
 
-  //à appeler pour connexion de l'employé, après validation positive du formulaire de connexion
+  //A appeler pour connexion de l'employé, après validation positive du formulaire de connexion
   login(user) {
     this.user = user;
     this.storage.user = JSON.stringify({ id: user.id, email: user.email });
   }
+
 }
